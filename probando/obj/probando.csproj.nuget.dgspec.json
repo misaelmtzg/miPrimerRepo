@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/miPrimerRepo/probando/probando.csproj": {}
+    "/Users/jonadadmisaelmartinezgomez/miPrimerRepo/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/miPrimerRepo/probando/probando.csproj": {
+    "/Users/jonadadmisaelmartinezgomez/miPrimerRepo/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/miPrimerRepo/probando/probando.csproj",
+        "projectUniqueName": "/Users/jonadadmisaelmartinezgomez/miPrimerRepo/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/miPrimerRepo/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/miPrimerRepo/probando/obj/",
+        "projectPath": "/Users/jonadadmisaelmartinezgomez/miPrimerRepo/probando/probando.csproj",
+        "packagesPath": "/Users/jonadadmisaelmartinezgomez/.nuget/packages/",
+        "outputPath": "/Users/jonadadmisaelmartinezgomez/miPrimerRepo/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/jonadadmisaelmartinezgomez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,11 +37,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,12 +60,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
